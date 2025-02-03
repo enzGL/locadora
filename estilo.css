@@ -43,7 +43,7 @@ table {
 
 
 body{
-    background-color: #FFC107;/*altera a cor do fundo da pagina*/
+    background: linear-gradient(to left, #CC0500, #EF832A);/*altera a cor do fundo da pagina*/
     font-family: Arial, Helvetica, sans-serif;/*altera a fonte usada na pagina*/
 }
 #col1{
@@ -77,7 +77,7 @@ body{
 .campo-texto{
     width: 100%;
     font-size: 16px;
-    color: #434343;
+    color: #6e6e6e;
     padding: 7px 13px;
     margin-bottom: 16px;
     border: 1px solid #CED4DA;
@@ -86,7 +86,7 @@ body{
 }
 .botao-reservar{
     width: 100%;
-    background-color: #FFC107;
+    background: linear-gradient(to left, #CC0500, #EF832A);
     color: white;
     line-height: 150%;
     padding-top: 6px;
@@ -95,28 +95,41 @@ body{
     font-weight: bold;
     font-size: 16px;
     margin-top: 16px;
+    box-shadow: 0px 4px 4px 0 rgba(5, 0, 0.5);
+}
+
+.botao-reservar:hover {
+    transform: scale(1.1);
+    border-color: #2b2dc0;
 }
 
 #col2{
     width: 700px;
     margin-left: 39px;
+    margin-bottom: 25px;
 }
 .oferta{
     font-size: 36px;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
+    
 }
 .destaque{
-    color: #445EE5;
+    color: #fbff00;
 }
 .texto-oferta{
     font-size: 18px;
-    margin-top: 10px
+    margin-top: 10px;
+    color: white;
 }
 .tudo{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh
+}
+.foto{
+    margin-top: 100px;
+    margin-left: 130px;
 }
